@@ -9,7 +9,7 @@ function App() {
     <Router>
       
       <Routes>
-        <Route path='assignment_task' element={<Page1/>} />
+        <Route path='assignment_task/' element={<Page1/>} />
         <Route path='/FullSizeImg' element={<FullSizeImg/>}></Route>
       </Routes>
     </Router>
